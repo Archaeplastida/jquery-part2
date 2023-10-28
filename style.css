@@ -1,0 +1,28 @@
+form{
+    border-bottom:1px solid black;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    user-select:none;
+}
+
+.movie{
+    margin-top:10px;
+    font-family:monospace;
+    font-size:24px;
+}
+
+.movie button{
+    margin-right:10px;
+    background-color:black;
+    color:white;
+}
+
+h1{
+    font-family:Arial;
+    text-shadow:2px 2px 1px gray;
+    user-select: none;
+}
+
+label{
+    user-select:none;
+}

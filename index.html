@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie/Show Lister</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Movie/Show Lister</h1>
+    <form>
+        <input type="text" id="title" placeholder="Title">
+        <input type="number" min="0" max="10" id="rating" placeholder="Rating">
+        <button type="button">SUBMIT</button>
+    </form>
+    <label>
+        Sort:
+    <select id="sort">
+        <option value="alphaAZ">Alphabetically(A-Z)</option>
+        <option value="alphaZA">Alphabetically(Z-A)</option>
+        <option value="top">Best Rated</option>
+        <option value="lowest">Worst Rated</option>
+    </select>
+</label>
+    <div id="container"></div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
